@@ -1,0 +1,24 @@
+:root {
+	--container-width: 1200px;
+	--container-padding: 15px;
+
+	--font-main: 'Fira Sans', sans-serif;
+	--font-accent: 'Fira Sans', sans-serif;
+
+	--page-bg: #000;
+	--text-color: #fff;
+	--accent: #6C38CC;
+	--gray: #AFB2BF;
+	--dark-gray: #616270;
+	--main: #1E1F29;
+	--secondary: #2E2D3D;
+
+	--laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+}
+
+.dark {
+	--page-bg: #252526;
+	--text-color: #fff;
+}
