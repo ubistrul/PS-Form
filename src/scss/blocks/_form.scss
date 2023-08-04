@@ -26,6 +26,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
+
 }
 
 .form__input-wrapper {
@@ -93,4 +94,41 @@
   line-height: 150%;
   resize: none;
   max-height: 96px;
+}
+
+@media screen and (max-width: 599px) {
+  .form {
+
+    &__input-wrapper:not(:has(.form__textarea)) {
+      padding: 26px 16px 12px 48px;
+    }
+
+    &__input-wrapper:has(.form__textarea) {
+      padding: 27px 16px 12px;
+    }
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__input {
+      font-size: 14px;
+
+      &::placeholder {
+        font-size: 14px;
+      }
+    }
+
+    &__label--comments {
+      left: 16px;
+    }
+
+    &__textarea {}
+
+    &__button {
+      font-size: 16px;
+    }
+
+
+  }
 }
