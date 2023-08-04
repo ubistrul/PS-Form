@@ -11,7 +11,8 @@
 
 .form {
   padding: 48px;
-  min-width: 793px;
+  width: 793px;
+  max-width: 793px;
   border-radius: 10px;
   background-color: var(--main);
   display: flex;
@@ -73,7 +74,7 @@
   }
 }
 
-.form__input:focus~.form__label {
+.form__input-wrapper:focus-within .form__label {
   top: 10px;
   font-size: 11px;
 }
