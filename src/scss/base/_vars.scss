@@ -7,6 +7,7 @@
 
 	--page-bg: #000;
 	--text-color: #fff;
+	--white-color: #FAFAFA;
 	--accent: #6C38CC;
 	--gray: #AFB2BF;
 	--dark-gray: #616270;
@@ -16,6 +17,13 @@
 	--laptop-size: 1199px;
 	--tablet-size: 959px;
 	--mobile-size: 599px;
+
+	// @-webkit-keyframes autofill {
+	// 	to {
+	// 		color: inherit;
+	// 		background: transparent;
+	// 	}
+	// }
 }
 
 .dark {
